@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 2.7,
+          "height": 2.7,
+          "width": 2.7
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|103704580|75149999|044c2781-580c-4f9a-a450-3680b878537a|fbc8af7d-b450-4233-9700-3f23d63ee6c8",
+        "courtyards_overlap|118068906|74787881|8bf15c7c-0981-4d92-a522-82978803bea2|fbc8af7d-b450-4233-9700-3f23d63ee6c8",
+        "courtyards_overlap|121700001|74606726|8bf15c7c-0981-4d92-a522-82978803bea2|de8cf9ff-a261-4623-8d00-f6219cb769cc"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -359,7 +363,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "JLCPCB_Template.kicad_pro",
+    "filename": "encoder.kicad_pro",
     "version": 1
   },
   "net_settings": {
